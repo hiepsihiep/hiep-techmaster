@@ -1,0 +1,10 @@
+so_duong = int(input("Nhap so duong zigzac: "))
+so_diem = int(input("Nhap so diem tren duong: "))
+
+for i in range(0, so_diem):
+    for j in range(0, (so_diem - 1) * so_duong + 1):
+        if j % (2 * (so_diem - 1)) == so_diem - i - 1 or j % (2 * (so_diem - 1)) == so_diem + i - 1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
