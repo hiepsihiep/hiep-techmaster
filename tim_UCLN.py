@@ -8,3 +8,4 @@ while a != 0:
     so_thu2 = a
     a = so_thu1 % so_thu2
 print(so_thu2)
+print("abc")
