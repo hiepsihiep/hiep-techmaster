@@ -9,3 +9,4 @@ while a != 0:
     a = so_thu1 % so_thu2
 print(so_thu2)
 print("abc")
+print("crgrafsg")
