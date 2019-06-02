@@ -9,6 +9,6 @@ while a != 0:
     a = so_thu1 % so_thu2
 print(so_thu2)
 print("abc")
-print("crgrafsg")
+print("edit from feature-2")
 print("from feature-1")
 print("from feature-2")
