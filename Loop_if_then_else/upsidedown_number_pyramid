@@ -1,0 +1,11 @@
+while True:
+    num = int(input("Nhap so le: "))
+    if num % 2 == 0:
+        print("So vua nhap la so chan!")
+    else:
+        for i in range(num, 0, -2):
+            for j in range(0, (num - i) // 2):
+                print(" ", end ="")
+            for j in range(num -i, num):
+                print(i, end ="")
+            print("")
