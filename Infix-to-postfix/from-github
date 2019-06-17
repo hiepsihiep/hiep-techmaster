@@ -1,0 +1,25 @@
+operation = input("Nhập phép tính (in hoa viết liền): ")
+
+prec = {}
+prec["^"] = 6
+prec["*"] = 4
+prec["/"] = 5
+prec["+"] = 2
+prec["-"] = 3
+result = ""
+Stack = ()
+topchar = ""
+for char in operation:
+    if char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" or char in "0987654321":
+        result += char
+    elif char in "+-/*^":
+        while True:
+            topchar = Stack.pop()
+            if 
+    elif char == "(":
+        Stack.append(char)
+    elif char == ")":
+        charpop = Stack.pop()
+        while charpop != "(":
+            result += charpop
+            charpop = Stack.pop()
